@@ -7,6 +7,8 @@ using System.Text.Json;
 
 namespace HomeWork14.Controllers
 {
+    [TypeFilter(typeof(Middleware))]
+
     public class VisitDoctorController : Controller
     {
         private const string filePath = "bookingDetails.json";
