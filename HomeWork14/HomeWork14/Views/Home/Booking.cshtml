@@ -1,0 +1,52 @@
+﻿@model HomeWork14.Models.PersonModel
+
+@{
+    ViewData["Title"] = "Booking Page";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Booking Page</title>
+</head>
+<body>
+    @using (Html.BeginForm("BookingPerson", "VisitDoctor", FormMethod.Post))
+    {
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <th colspan="2" align="center">Doctor Booking Details</th>
+            </tr>
+            <tr>
+                <td>FirstName: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.FirstName)
+                </td>
+            </tr>
+            <tr>
+                <td>LastName: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.LastName)
+                </td>
+            </tr>
+            <tr>
+                <td>Doctor: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.Doctor)
+                </td>
+            </tr>
+            <tr>
+                <td>Time: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.Time)
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit" /></td>
+            </tr>
+        </table>
+    }
+</body>
+</html>

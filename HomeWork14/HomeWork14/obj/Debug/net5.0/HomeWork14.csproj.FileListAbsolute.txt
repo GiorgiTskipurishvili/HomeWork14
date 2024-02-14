@@ -41,3 +41,5 @@ C:\Users\User\OneDrive\Desktop\HomeWork14\HomeWork14\HomeWork14\obj\Debug\net5.0
 C:\Users\User\OneDrive\Desktop\HomeWork14\HomeWork14\HomeWork14\obj\Debug\net5.0\HomeWork14.genruntimeconfig.cache
 C:\Users\User\OneDrive\Desktop\HomeWork14\HomeWork14\HomeWork14\obj\Debug\net5.0\ref\HomeWork14.dll
 C:\Users\User\OneDrive\Desktop\HomeWork14\HomeWork14\HomeWork14\obj\Debug\net5.0\HomeWork14.csproj.CopyComplete
+C:\Users\User\OneDrive\Desktop\HomeWork14\Homework14\HomeWork14\obj\Debug\net5.0\HomeWork14.sourcelink.json
+C:\Users\User\OneDrive\Desktop\HomeWork14\Homework14\HomeWork14\obj\Debug\net5.0\Razor\Views\Home\Booking.cshtml.g.cs
